@@ -1,6 +1,6 @@
 version: 0.0
 os: linux
 files:  
-  - source: ./target/*.jar
+  - source: target/*.jar
     destination: /home/ec2-user/        #copy files from github into the home directory of the ec2 instance
 file_exists_behavior: OVERWRITE         # Allows Overwriting files at the destination that have the same name
